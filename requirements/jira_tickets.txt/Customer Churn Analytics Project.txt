@@ -1,0 +1,31 @@
+EPIC: Customer Churn Analytics Project
+
+User Story:
+As a business stakeholder, I want to analyze customer churn behavior so that we can reduce customer loss and improve retention strategies.
+
+Acceptance Criteria:
+- Monthly churn KPI must be calculated
+- Customer segmentation analysis must be included
+- Dashboard must include churn trends
+- Data must be refreshed monthly
+
+
+TASK 1: Data Extraction
+Description:
+Extract customer data from the source dataset and prepare it for analysis.
+
+TASK 2: Data Cleaning
+Description:
+Handle missing values, incorrect data types, and prepare analysis-ready dataset.
+
+TASK 3: Exploratory Data Analysis
+Description:
+Analyze churn patterns, customer demographics, and behavioral indicators.
+
+TASK 4: KPI Calculation
+Description:
+Calculate churn rate and segment-level churn KPIs.
+
+TASK 5: Dashboard Development
+Description:
+Develop an interactive churn analytics dashboard for business stakeholders.
