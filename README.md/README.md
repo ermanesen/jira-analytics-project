@@ -13,3 +13,4 @@ This project simulates an end-to-end analytics workflow integrating Business Ana
 2. Data cleaning and transformation
 3. SQL-based analytics workflow
 4. KPI calculation and visualization
+
