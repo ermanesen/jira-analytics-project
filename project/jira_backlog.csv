@@ -1,0 +1,8 @@
+key,type,parent,summary,status,acceptance_evidence
+CRR-1,Epic,,Customer revenue and retention analytics,Done,Validated end-to-end repository
+CRR-2,Story,CRR-1,Establish a governed source snapshot,Done,data/source_manifest.json and audit checks
+CRR-3,Story,CRR-1,Build the DuckDB analytical model,Done,sql/00 through sql/06
+CRR-4,Story,CRR-1,Define lifecycle and cohort metrics,Done,customer_lifecycle and cohort_continuation outputs
+CRR-5,Story,CRR-1,Deliver Power BI-ready outputs,Done,powerbi/exports plus DAX and model guide
+CRR-6,Story,CRR-1,Automate quality gates,Done,pytest and GitHub Actions workflow
+

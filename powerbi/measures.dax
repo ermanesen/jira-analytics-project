@@ -1,0 +1,16 @@
+Total Revenue = SUM(monthly_kpis[revenue])
+
+Orders = SUM(monthly_kpis[orders])
+
+Average Order Value = DIVIDE([Total Revenue], [Orders])
+
+Active Customers = SUM(monthly_kpis[active_customers])
+
+Latest Repeat Buyer Rate =
+VAR LatestMonth = MAX(monthly_kpis[month_start])
+RETURN CALCULATE(MAX(monthly_kpis[repeat_buyer_rate_pct]), monthly_kpis[month_start] = LatestMonth)
+
+At-risk Customers = CALCULATE(COUNTROWS(customer_lifecycle), customer_lifecycle[activity_status] = "At risk")
+
+Dormant Customers = CALCULATE(COUNTROWS(customer_lifecycle), customer_lifecycle[activity_status] = "Dormant")
+
