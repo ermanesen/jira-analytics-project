@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Customer revenue and retention dashboard preview</title>
+  <desc id="desc">Validated KPI cards, customer inactivity status, top markets and genres, and 2025 monthly revenue.</desc>
+  <rect width="1200" height="700" fill="#F8FAFC"/>
+  <text x="55" y="58" font-family="Arial" font-size="30" font-weight="700" fill="#0F172A">Customer Revenue &amp; Retention</text>
+  <text x="55" y="86" font-family="Arial" font-size="15" fill="#64748B">Validated snapshot · 2021-01-01 to 2025-12-22 · as of 2025-12-31</text>
+  <g font-family="Arial">
+    <g><rect x="55" y="115" width="250" height="105" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/><text x="75" y="148" font-size="14" fill="#64748B">TOTAL REVENUE</text><text x="75" y="193" font-size="32" font-weight="700" fill="#2563EB">$2,328.60</text></g>
+    <g><rect x="325" y="115" width="250" height="105" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/><text x="345" y="148" font-size="14" fill="#64748B">ORDERS</text><text x="345" y="193" font-size="32" font-weight="700" fill="#0F172A">412</text></g>
+    <g><rect x="595" y="115" width="250" height="105" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/><text x="615" y="148" font-size="14" fill="#64748B">CUSTOMERS</text><text x="615" y="193" font-size="32" font-weight="700" fill="#0F172A">59</text></g>
+    <g><rect x="865" y="115" width="280" height="105" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/><text x="885" y="148" font-size="14" fill="#64748B">AVERAGE ORDER VALUE</text><text x="885" y="193" font-size="32" font-weight="700" fill="#14B8A6">$5.65</text></g>
+    <rect x="55" y="245" width="350" height="380" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <text x="75" y="283" font-size="18" font-weight="700" fill="#0F172A">Customer activity status</text>
+    <circle cx="230" cy="420" r="105" fill="none" stroke="#E2E8F0" stroke-width="42"/>
+    <circle cx="230" cy="420" r="105" fill="none" stroke="#14B8A6" stroke-width="42" stroke-dasharray="212 660" transform="rotate(-90 230 420)"/>
+    <circle cx="230" cy="420" r="105" fill="none" stroke="#F59E0B" stroke-width="42" stroke-dasharray="134 660" stroke-dashoffset="-212" transform="rotate(-90 230 420)"/>
+    <circle cx="230" cy="420" r="105" fill="none" stroke="#EF4444" stroke-width="42" stroke-dasharray="313 660" stroke-dashoffset="-346" transform="rotate(-90 230 420)"/>
+    <text x="213" y="413" font-size="14" fill="#64748B">TOTAL</text><text x="211" y="448" font-size="30" font-weight="700" fill="#0F172A">59</text>
+    <circle cx="92" cy="565" r="6" fill="#14B8A6"/><text x="106" y="570" font-size="14" fill="#334155">Active 19</text>
+    <circle cx="190" cy="565" r="6" fill="#F59E0B"/><text x="204" y="570" font-size="14" fill="#334155">At risk 12</text>
+    <circle cx="300" cy="565" r="6" fill="#EF4444"/><text x="314" y="570" font-size="14" fill="#334155">Dormant 28</text>
+    <rect x="430" y="245" width="715" height="190" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <text x="450" y="282" font-size="18" font-weight="700" fill="#0F172A">Largest revenue contributors</text>
+    <text x="450" y="325" font-size="14" fill="#64748B">MARKET</text><text x="575" y="325" font-size="14" fill="#64748B">REVENUE</text><text x="700" y="325" font-size="14" fill="#64748B">GENRE</text><text x="825" y="325" font-size="14" fill="#64748B">REVENUE</text>
+    <text x="450" y="365" font-size="22" font-weight="700" fill="#0F172A">United States</text><text x="575" y="365" font-size="22" font-weight="700" fill="#2563EB">$523.06</text><text x="700" y="365" font-size="22" font-weight="700" fill="#0F172A">Rock</text><text x="825" y="365" font-size="22" font-weight="700" fill="#2563EB">$826.65</text>
+    <text x="450" y="400" font-size="14" fill="#64748B">22.5% of total</text><text x="700" y="400" font-size="14" fill="#64748B">35.5% of total</text>
+    <rect x="430" y="455" width="715" height="170" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <text x="450" y="492" font-size="18" font-weight="700" fill="#0F172A">2025 monthly revenue</text>
+    <line x1="470" y1="585" x2="1110" y2="585" stroke="#CBD5E1"/>
+    <polyline points="470,560 528,580 586,560 644,570 702,560 760,560 818,560 876,560 934,560 992,560 1050,525 1110,557" fill="none" stroke="#2563EB" stroke-width="4"/>
+    <g fill="#2563EB"><circle cx="470" cy="560" r="4"/><circle cx="528" cy="580" r="4"/><circle cx="586" cy="560" r="4"/><circle cx="644" cy="570" r="4"/><circle cx="702" cy="560" r="4"/><circle cx="760" cy="560" r="4"/><circle cx="818" cy="560" r="4"/><circle cx="876" cy="560" r="4"/><circle cx="934" cy="560" r="4"/><circle cx="992" cy="560" r="4"/><circle cx="1050" cy="525" r="4"/><circle cx="1110" cy="557" r="4"/></g>
+    <text x="455" y="608" font-size="12" fill="#64748B">Jan</text><text x="1092" y="608" font-size="12" fill="#64748B">Dec</text>
+  </g>
+</svg>
+

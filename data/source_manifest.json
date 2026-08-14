@@ -1,0 +1,21 @@
+{
+  "source": "Chinook Database",
+  "repository": "https://github.com/lerocha/chinook-database",
+  "source_file": "ChinookDatabase/DataSources/ChinookData.json",
+  "retrieved_on": "2026-08-14",
+  "analysis_as_of_date": "2025-12-31",
+  "license": "MIT",
+  "snapshot_rows": {
+    "albums": 347,
+    "artists": 275,
+    "customers": 59,
+    "employees": 8,
+    "genres": 25,
+    "invoice_lines": 2240,
+    "invoices": 412,
+    "tracks": 3503
+  },
+  "privacy_note": "Customer direct identifiers and employee names are excluded from the processed snapshot.",
+  "data_note": "Chinook is a sample database. Customers and sales are fictional; catalog metadata is based on a real media library."
+}
+
